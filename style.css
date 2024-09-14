@@ -7,6 +7,8 @@ body{
     font-family: ;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 .para1{
     margin-top: 30px;
@@ -21,6 +23,7 @@ body{
     font-size: 30px;
     text-align: center;
     padding: 50px;
+    padding-top: 60px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     margin: 20px;
@@ -31,6 +34,7 @@ input{
     display: inline;
     margin: 10px auto;
     padding: 10px;
+    padding-top: 20px;
     width: 200px;
     border-radius: 5px;
     border: none;
@@ -49,6 +53,8 @@ button{
     padding: 10PX;
     border-radius: 5PX;
     box-shadow: none;
+    position: relative;
+    left: 500px;
 }
 button:hover{
     background-color: #e95102;
@@ -67,4 +73,28 @@ h1{
 }
 nav{
     box-shadow: 2px 4px;
+}
+#okay{
+    border: 2px solid gray;
+    padding: 40px;
+    border-radius: 10px;
+}
+@media screen and (max-width:480px){
+    nav{
+        display: flex;
+    }
+    body{
+        padding: 10px;
+    }
+    h1{
+        font-size:xx-large;
+        padding: 10px;
+    }
+    p{
+        font-size: medium;
+    }
+    button{
+        position: relative;
+        left: 90px;
+    }
 }
