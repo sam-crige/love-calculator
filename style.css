@@ -54,11 +54,13 @@ button{
     border-radius: 5PX;
     box-shadow: none;
     position: relative;
-    left: 500px;
+    top: 30px;
+    left: px;
 }
 button:hover{
     background-color: #e95102;
     transition: all 0.5s ease-in-out;
+    color: white;
 }
 input,button{
     margin-top: 20px;
@@ -95,6 +97,23 @@ nav{
     }
     button{
         position: relative;
-        left: 90px;
+    }
+    label{
+        font-size:20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    #okay{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .para1{
+        padding: none;
+    }
+    input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: -10px;
     }
 }
